@@ -5,12 +5,17 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <header>
-      <img src={logo} alt="logo"/>
+      <img src={logo} className = 'logo' alt="logo"/>
       {/* Links to different pages */}
-      <div className = 'links'>
-        <Link to = {'/industries'}>Industries</Link>
-        <Link to = {'/services'}>Services</Link>
-        <Link to = {'/aboutus'}>About Us</Link>
+      <div className = 'menu'>
+        <ul>
+          <li><Link to = {'/industries'}>Industries</Link></li>
+          <li><Link to = {'/services'}>Services</Link></li>
+          <li><Link to = {'/aboutus'}>About Us</Link></li>
+        </ul>
+      </div>
+      <div className = "contact">
+        <button>Contact Us</button>
       </div>
     </header>
   )
