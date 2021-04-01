@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <header>
-      <img src="../../logo.svg" alt="logo"/>
+      <img src={logo} alt="logo"/>
       {/* Links to different pages */}
       <div className = 'links'>
         <Link to = {'/industries'}>Industries</Link>
