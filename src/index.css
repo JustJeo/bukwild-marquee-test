@@ -5,10 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: gray;
+  background-image: url("./assets/slide_three.jpg");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .AboutUs {
+  background-image: url("./assets/slide_three.jpg");
+  background-size: cover;
+} */
