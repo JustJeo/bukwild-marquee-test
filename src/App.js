@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import Header from './components/Header'
-// import Routes from './config/Routes'
+import Routes from './config/Routes'
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <img src={logo} alt="logo"/>
       <Header />
-      {/* <Routes /> */}
+      <Routes />
     </div>
   );
 }
