@@ -5,17 +5,19 @@ import { Link } from 'react-router-dom'
 const Industries = () => {
   return (
     <div className = "Industries">
-      <div className = "contact">
-        <button>Contact Us</button>
-      </div>
-      <img src={logo} className = 'logo' alt="logo"/>
-      {/* Links to different pages */}
-      <div className = 'menu'>
-        <ul>
-          <li><Link to = {'/industries'}>Industries</Link></li>
-          <li><Link to = {'/services'}>Services</Link></li>
-          <li><Link to = {'/aboutus'}>About Us</Link></li>
-        </ul>
+      <div className = "nav">
+        <div className = "contact">
+          <button>Contact Us</button>
+        </div>
+        <img src={logo} className = 'logo' alt="logo"/>
+        {/* Links to different pages */}
+        <div className = 'menu'>
+          <ul>
+            <li><Link to = {'/industries'}>Industries</Link></li>
+            <li class = "servLink"><Link to = {'/services'}>Services</Link></li>
+            <li><Link to = {'/aboutus'}>About Us</Link></li>
+          </ul>
+        </div>
       </div>
       <div className = "Header">
         <h1>Industries</h1>
