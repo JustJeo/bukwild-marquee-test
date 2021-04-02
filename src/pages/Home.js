@@ -13,7 +13,7 @@ const Industries = () => {
         {/* Links to different pages */}
         <div className = 'menu'>
           <ul>
-            <li><Link to = {'/'}>Industries</Link></li>
+            <li><Link to = {'/bukwild-marquee-test'}>Industries</Link></li>
             <li class = "servLink"><Link to = {'/services'}>Services</Link></li>
             <li><Link to = {'/aboutus'}>About Us</Link></li>
           </ul>
