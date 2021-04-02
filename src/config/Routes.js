@@ -8,7 +8,7 @@ import AboutUs from '../pages/AboutUs'
 
 const Routes = () => (
   <Switch>
-    <Route exact path = '/' component = { Home } />
+    <Route path = '/' component = { Home } />
     <Route exact path = '/services' component = { Services } />
     <Route exact path = '/aboutus' component = { AboutUs} />
   </Switch>
