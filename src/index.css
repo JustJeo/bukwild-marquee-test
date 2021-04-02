@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./assets/slide_three.jpg");
+  height: 100%;
 }
 
 code {
@@ -13,7 +13,19 @@ code {
     monospace;
 }
 
-/* .AboutUs {
+.Industries {
+  background-image: url("./assets/slide_one.jpg");
+}
+
+.Services {
+  background-image: url("./assets/slide_two.jpg");
+}
+
+.AboutUs {
   background-image: url("./assets/slide_three.jpg");
+}
+
+.Industries, .Services, .AboutUs {
+  min-height: 100vh;
   background-size: cover;
-} */
+}

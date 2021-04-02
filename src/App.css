@@ -38,9 +38,9 @@
   }
 }
 
-/* header {
-  display: flex;
-} */
+header {
+  background-color: transparent;
+}
 
 .logo {
   display: block;

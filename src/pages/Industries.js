@@ -1,8 +1,32 @@
 import React from 'react';
+import logo from '../logo.svg';
+import { Link } from 'react-router-dom'
 
 const Industries = () => {
   return (
-    <p>Here is the industries placeholder.</p>
+    <div className = "Industries">
+      <div className = "contact">
+        <button>Contact Us</button>
+      </div>
+      <img src={logo} className = 'logo' alt="logo"/>
+      {/* Links to different pages */}
+      <div className = 'menu'>
+        <ul>
+          <li><Link to = {'/industries'}>Industries</Link></li>
+          <li><Link to = {'/services'}>Services</Link></li>
+          <li><Link to = {'/aboutus'}>About Us</Link></li>
+        </ul>
+      </div>
+      <div className = "Header">
+        <h1>Industries</h1>
+      </div>
+      <div className = "Subhead">
+        <h3>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</h3>
+      </div>
+      <div className = "CTA">
+        <p>Vestibulum id ligula porta felis euismod semper.</p>
+      </div>
+    </div>
   )
 }
 
