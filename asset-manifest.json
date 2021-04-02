@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bukwild-marquee-test/static/css/main.3957a6d3.chunk.css",
+    "main.js": "/bukwild-marquee-test/static/js/main.adaa09aa.chunk.js",
+    "main.js.map": "/bukwild-marquee-test/static/js/main.adaa09aa.chunk.js.map",
+    "runtime-main.js": "/bukwild-marquee-test/static/js/runtime-main.4578888e.js",
+    "runtime-main.js.map": "/bukwild-marquee-test/static/js/runtime-main.4578888e.js.map",
+    "static/js/2.94c9d0fc.chunk.js": "/bukwild-marquee-test/static/js/2.94c9d0fc.chunk.js",
+    "static/js/2.94c9d0fc.chunk.js.map": "/bukwild-marquee-test/static/js/2.94c9d0fc.chunk.js.map",
+    "index.html": "/bukwild-marquee-test/index.html",
+    "static/css/main.3957a6d3.chunk.css.map": "/bukwild-marquee-test/static/css/main.3957a6d3.chunk.css.map",
+    "static/js/2.94c9d0fc.chunk.js.LICENSE.txt": "/bukwild-marquee-test/static/js/2.94c9d0fc.chunk.js.LICENSE.txt",
+    "static/media/logo.c72ca4e0.svg": "/bukwild-marquee-test/static/media/logo.c72ca4e0.svg",
+    "static/media/index.css": "/bukwild-marquee-test/static/media/slide_two.b7b871cc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4578888e.js",
+    "static/js/2.94c9d0fc.chunk.js",
+    "static/css/main.3957a6d3.chunk.css",
+    "static/js/main.adaa09aa.chunk.js"
+  ]
+}
