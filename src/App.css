@@ -38,8 +38,8 @@
   }
 }
 
-header {
-  background-color: transparent;
+.nav {
+  font-size: 1em;
 }
 
 .logo {
@@ -59,11 +59,20 @@ ul {
   padding: 0px 25px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a.servLink {
+  color: #ffc004;
+}
+
 button {
   background-color: transparent;
   color: white;
-  font-size: 1em;
-  padding: 10px;
+  font-size: 2em;
+  padding: 25px;
 }
 
 .contact {
@@ -71,4 +80,43 @@ button {
   border: solid 2px white;
   float: right;
   margin: 25px;
+}
+
+.HeadsContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.Header, .Subhead {
+  width: 40%;
+}
+
+.Header {
+  font-size: 250%;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+.Footer {
+  color: black;
+  background-color: white;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0;
 }
