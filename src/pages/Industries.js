@@ -19,14 +19,21 @@ const Industries = () => {
           </ul>
         </div>
       </div>
-      <div className = "Header">
-        <h1>Industries</h1>
+      <div className = "HeadsContainer">
+        <div className = "Header">
+          <h1>Industries</h1>
+        </div>
+        <div className = "Subhead">
+          <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
       </div>
-      <div className = "Subhead">
-        <h3>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</h3>
-      </div>
-      <div className = "CTA">
-        <p>Vestibulum id ligula porta felis euismod semper.</p>
+      <div className = "Footer">
+        <div className = "cta">
+          <h3>Vestibulum id ligula porta felis euismod semper.</h3>
+        </div>
+        <div className = "talk">
+          <p>LET'S TALK</p>
+        </div>
       </div>
     </div>
   )
